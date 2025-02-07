@@ -53,8 +53,10 @@ const Papers = () => {
           {papers.map((section, index) => (
             <div key={index}>
               <h2 className="text-center text-2xl font-bold mb-6">{section.category}</h2>
-              <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ${
-                section.items.length === 1 ? 'justify-items-center lg:grid-cols-1 max-w-[400px] mx-auto' : ''
+              <div className={`grid gap-6 ${
+                section.items.length === 1 
+                  ? 'grid-cols-1 max-w-[400px] mx-auto' 
+                  : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3'
               }`}>
                 {section.items.map((item, itemIndex) => (
                   <Card key={itemIndex} className="overflow-hidden">

@@ -27,7 +27,7 @@ const AIMediaSection = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden transform transition-transform">
               <div className="space-y-4">
                 <h3 className="ml-6 mt-6 text-[24px] font-bold text-[#0d47a1] leading-tight">
-                  高度な出力や文析も実行
+                  高度な出力や分析も実行
                 </h3>
                   <img
                     src="/images/ai-sales.png"
