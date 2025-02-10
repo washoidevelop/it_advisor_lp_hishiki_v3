@@ -46,7 +46,7 @@ const ContactForm = () => {
         email: values.email,
         phone: values.phone ? `'${values.phone}` : "", // 電話番号の前にアポストロフィーを追加
         message: values.message,
-        service: "chatgpt_excel_contact"
+        service: "ai-sourcing_contact"
       };
 
       // Google App Scriptにデータを送信

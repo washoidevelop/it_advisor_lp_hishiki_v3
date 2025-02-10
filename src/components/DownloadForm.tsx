@@ -61,10 +61,10 @@ const DownloadForm = () => {
         phone: values.phone ? `'${values.phone}` : "", // 電話番号の前にアポストロフィーを追加
         message: "",
         service: utmSource === 'google' 
-          ? "chatgpt_excel_download_google"
+          ? "ai-sourcing_download_google"
           : utmSource === 'x'
-          ? "chatgpt_excel_download_x"
-          : "chatgpt_excel_download"
+          ? "ai-sourcing_download_x"
+          : "ai-sourcing_download"
       };
 
       // Google App Scriptにデータを送信
